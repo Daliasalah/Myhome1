@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="#f5f5f0"
+        >
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="Your Profile\n 40%completed"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            tools:layout_editor_absoluteX="172dp"
+            tools:layout_editor_absoluteY="643dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_dark"
+            android:radius="3dip"
+            android:bottomRightRadius="10dp"
+            android:bottomLeftRadius="10dp"
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp"
+            />
+
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="581dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email ID"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of birth"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+    <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experience"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="473dp" />
+
+    <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="531dp" />
+
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="185dp"
+            android:layout_height="136dp"
+            app:srcCompat="@android:drawable/alert_light_frame"
+            tools:layout_editor_absoluteX="-15dp"
+            tools:layout_editor_absoluteY="114dp"
+            android:src="@drawable/doctor"
+
+            />
+
+    <EditText
+            android:id="@+id/editText3"
+            android:layout_width="183dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Dr.sherly"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="133dp" />
+
+    <EditText
+            android:id="@+id/editText4"
+            android:layout_width="168dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Aberhman"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+    <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+    <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+    <EditText
+            android:id="@+id/editText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="343dp" />
+
+    <EditText
+            android:id="@+id/editText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="402dp" />
+
+    <EditText
+            android:id="@+id/editText9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="462dp" />
+
+    <EditText
+            android:id="@+id/editText10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="521dp" />
+
+    <EditText
+            android:id="@+id/editText11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="581dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
